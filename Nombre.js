@@ -17,15 +17,17 @@ getApellidoNombre(){
 getIniciales(){
     return ` ${this.nombre.slice(0,1)}${this.apellidoPaterno.slice(0,1)}${this.apellidoMaterno.slice(0,1)}`;    
 }}
-
-var nombre1 = new Nombre("Barniel","Dinos","Aurio");
-var nombre2 = new Nombre("Pedro","Elpicap","Iedras");
 /* Cómo obtener la primera letra 
 let name = "Pepe"
 let inicial = name.slice(0,1);
 console.log(inicial);
 */
 
+/*
+var nombre1 = new Nombre("Barniel","Dinos","Aurio");
+var nombre2 = new Nombre("Pedro","Elpicap","Iedras");
+
 console.log(nombre1.getNombreCompleto());
 console.log(nombre1.getApellidoNombre());
 console.log(nombre1.getIniciales());
+*/

@@ -46,6 +46,8 @@ constructor (dia, mes, año){
     }
 }
 
+
+/*
 let fecha1= new Fecha(26,2,2021);
 
 console.log(fecha1.getFecha());
@@ -54,3 +56,4 @@ console.log(fecha1.getDias());
 console.log(fecha1.getSemanas());
 console.log(fecha1.getMeses());
 console.log(fecha1.getAños());
+*/

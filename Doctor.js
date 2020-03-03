@@ -15,4 +15,8 @@ return (`${this.cedula},${this.especialidad},${this.nombre.getNombreCompleto()},
 
 }
 
+/*
 var Doctor0 = new Doctor(new Nombre("Eldoc","Torazo","Simi"),"Traumatología", "312-313-2519","CedulaRandom");
+
+console.log(Doctor0.getPerfil());
+*/

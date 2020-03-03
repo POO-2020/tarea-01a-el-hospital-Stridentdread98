@@ -13,6 +13,8 @@ export default class Paciente{
     }
 }
 
+/*
 var Paciente0 = new Paciente(new Nombre("armando","Lopez","Doriga"),new Fecha(1,8,2000),"312-140-6987");
 
 console.log(Paciente0.getPerfil());
+*/
