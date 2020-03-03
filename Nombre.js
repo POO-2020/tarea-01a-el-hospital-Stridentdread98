@@ -1,4 +1,4 @@
-class nombre{
+class Nombre{
 
 constructor(nombre, apellidoPaterno, apellidoMaterno){
 this.nombre = nombre;
@@ -15,18 +15,12 @@ getApellidoNombre(){
 }
 
 getIniciales(){
-    return ` ${this.nombre.slice(0,1)}${this.apellidoMaterno.slice(0,1)}${this.apellidoPaterno.slice(0,1)}`;    
-    /*this.nombre.slice(0, -1);*/
-    /*
-String.prototype.subst();
-String.prototype.slice(1);
-*/
-
+    return ` ${this.nombre.slice(0,1)}${this.apellidoPaterno.slice(0,1)}${this.apellidoMaterno.slice(0,1)}`;    
 }}
 
-let nombre1 = new nombre("Barniel","Dinos","Aurio");
-let nombre2 = new nombre("Pedro","Elpicap","Iedras");
-/* Cómoobtener la primera letra 
+var nombre1 = new Nombre("Barniel","Dinos","Aurio");
+var nombre2 = new Nombre("Pedro","Elpicap","Iedras");
+/* Cómo obtener la primera letra 
 let name = "Pepe"
 let inicial = name.slice(0,1);
 console.log(inicial);
