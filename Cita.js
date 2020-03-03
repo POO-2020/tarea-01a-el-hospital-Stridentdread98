@@ -3,7 +3,7 @@ import Paciente from "./Paciente.js";
 import Doctor from "./Doctor.js";
 import Tiempo from "./Tiempo.js";
 
-class Cita{
+export default class Cita{
 
 
 constructor(fecha, hora, doctor, paciente){
