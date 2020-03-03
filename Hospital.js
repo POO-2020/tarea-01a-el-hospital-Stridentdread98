@@ -1,7 +1,7 @@
 import Cita from "Cita.js";
 import Doctor from "Doctor.js";
 
-class Hospital{
+export default class Hospital{
 
     constructor(nombre, direccion){
         nombre = nombre;
