@@ -1,4 +1,4 @@
-class Fecha{
+export default class Fecha{
 constructor (dia, mes, año){
         this.fecha = new Date(año, mes -1, dia);
         this.diaSem= ["Sabado","Domingo", "Lunes", "Martes","Miercoles","Jueves","Viernes"];
@@ -11,7 +11,6 @@ constructor (dia, mes, año){
 
     getDiaFecha(){
         let dia = this.diaSem[this.fecha.getDay()+1];
-        let numMes = this.mes[this.fecha.getMonth()];
             return(`El día ${dia}`);
 
     }
@@ -47,7 +46,7 @@ constructor (dia, mes, año){
     }
 }
 
-let fecha1= new Fecha(27,2,2021);
+let fecha1= new Fecha(26,2,2021);
 
 console.log(fecha1.getFecha());
 console.log(fecha1.getDiaFecha());
